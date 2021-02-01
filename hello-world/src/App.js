@@ -5,12 +5,16 @@ import Hello from './components/Hello';
 import Welcome from './components/Welcome';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import FunctionClick from './components/functionClick';
+import ClassClick from './components/ClassClick';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Counter />
+        <FunctionClick />
+        <ClassClick />
+        {/*<Counter />
         {/*<Message />/}
         {/*<Greet name="Bruce" heroname="Batman">
           <p>This is children props</p>

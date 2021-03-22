@@ -1,20 +1,16 @@
 import './App.css';
 import { Component } from 'react';
-import Greet from './components/Greet'
-import Hello from './components/Hello';
-import Welcome from './components/Welcome';
-import Message from './components/Message';
-import Counter from './components/Counter';
-import FunctionClick from './components/functionClick';
-import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind.js';
+// import ClassClick from './components/ClassClick.js';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <FunctionClick />
-        <ClassClick />
-        {/*<Counter />
+        <EventBind />       
+        {/* <ClassClick /> */}
+        {/*<FunctionClick />}
+        {/*<Counter />}
         {/*<Message />/}
         {/*<Greet name="Bruce" heroname="Batman">
           <p>This is children props</p>
